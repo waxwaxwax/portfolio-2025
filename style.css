@@ -267,6 +267,10 @@ section {
   margin-bottom: 2rem;
   text-align: center;
 }
+
+.details-container p {
+  font-size: 12px;
+}
 .experience-details-container {
   display: flex;
   justify-content: center;
@@ -316,6 +320,10 @@ article {
   align-items: center;
   gap: 0.3rem;
   width: 6rem; /* お好みで幅調整 */
+}
+
+article p {
+ font-size: 12px;
 }
 
 /* PROJECTS SECTION */
