@@ -332,11 +332,12 @@ article p {
   text-align: center;
 }
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
-  object-fit: cover;
+  width: 100%; /* 親要素の幅に合わせる */
+  height: 200px; /* すべて同じ高さに統一 */
+  object-fit: cover; /* 画像をトリミングしてバランスを保つ */
+  border-radius: 8px; /* 角を少し丸める（オプション） */
 }
+
 /* Projectsセクションのタイトルを揃える */
 .project-title {
   margin: 1rem;
